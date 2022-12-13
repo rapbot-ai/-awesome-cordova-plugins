@@ -3,7 +3,7 @@
 Object.defineProperty(exports, '__esModule', { value: true });
 
 var tslib = require('tslib');
-var core = require('@awesome-cordova-plugins/core');
+var core = require('awesome-cordova-plugins/core');
 var core$1 = require('@angular/core');
 
 var IAPError = /** @class */ (function () {

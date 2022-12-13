@@ -2,7 +2,7 @@
 
 var tslib = require('tslib');
 var i0 = require('@angular/core');
-var core = require('@awesome-cordova-plugins/core');
+var core = require('awesome-cordova-plugins/core');
 require('rxjs');
 
 function _interopNamespaceDefault(e) {
@@ -272,11 +272,13 @@ var Purchases = /** @class */ (function (_super) {
     Purchases = tslib.__decorate([], Purchases);
     return Purchases;
 }(core.AwesomeCordovaNativePlugin));
-i0__namespace.ɵɵngDeclareClassMetadata({ minVersion: "12.0.0", version: "12.2.16", ngImport: i0__namespace, type: Purchases, decorators: [{
-            type: i0.Injectable,
-            args: [{
-                    providedIn: 'root',
-                }]
-        }], propDecorators: { configure: [], configureWith: [], getOfferings: [], getProducts: [], purchaseProduct: [], purchasePackage: [], restorePurchases: [], getAppUserID: [], logIn: [], logOut: [], getCustomerInfo: [], onCustomerInfoUpdated: [], setDebugLogsEnabled: [], syncPurchases: [], setSimulatesAskToBuyInSandbox: [], setAutomaticAppleSearchAdsAttributionCollection: [], enableAdServicesAttributionTokenCollection: [], isAnonymous: [], checkTrialOrIntroductoryPriceEligibility: [], addShouldPurchasePromoProductListener: [], removeShouldPurchasePromoProductListener: [], invalidateCustomerInfoCache: [], presentCodeRedemptionSheet: [], setAttributes: [], setEmail: [], setPhoneNumber: [], setDisplayName: [], setPushToken: [], setAdjustID: [], setAppsflyerID: [], setFBAnonymousID: [], setMparticleID: [], setOnesignalID: [], setAirshipChannelID: [], setFirebaseAppInstanceID: [], setMixpanelDistinctID: [], setCleverTapID: [], setMediaSource: [], setCampaign: [], setAdGroup: [], setAd: [], setKeyword: [], setCreative: [], collectDeviceIdentifiers: [], canMakePayments: [], setProxyURL: [] } });
+i0__namespace.ɵɵngDeclareClassMetadata({
+    minVersion: "12.0.0", version: "12.2.16", ngImport: i0__namespace, type: Purchases, decorators: [{
+        type: i0.Injectable,
+        args: [{
+            providedIn: 'root',
+        }]
+    }], propDecorators: { configure: [], configureWith: [], getOfferings: [], getProducts: [], purchaseProduct: [], purchasePackage: [], restorePurchases: [], getAppUserID: [], logIn: [], logOut: [], getCustomerInfo: [], onCustomerInfoUpdated: [], setDebugLogsEnabled: [], syncPurchases: [], setSimulatesAskToBuyInSandbox: [], setAutomaticAppleSearchAdsAttributionCollection: [], enableAdServicesAttributionTokenCollection: [], isAnonymous: [], checkTrialOrIntroductoryPriceEligibility: [], addShouldPurchasePromoProductListener: [], removeShouldPurchasePromoProductListener: [], invalidateCustomerInfoCache: [], presentCodeRedemptionSheet: [], setAttributes: [], setEmail: [], setPhoneNumber: [], setDisplayName: [], setPushToken: [], setAdjustID: [], setAppsflyerID: [], setFBAnonymousID: [], setMparticleID: [], setOnesignalID: [], setAirshipChannelID: [], setFirebaseAppInstanceID: [], setMixpanelDistinctID: [], setCleverTapID: [], setMediaSource: [], setCampaign: [], setAdGroup: [], setAd: [], setKeyword: [], setCreative: [], collectDeviceIdentifiers: [], canMakePayments: [], setProxyURL: [] }
+});
 
 exports.Purchases = Purchases;

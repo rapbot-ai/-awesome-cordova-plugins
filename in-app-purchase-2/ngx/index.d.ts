@@ -1,4 +1,4 @@
-import { AwesomeCordovaNativePlugin } from '@awesome-cordova-plugins/core';
+import { AwesomeCordovaNativePlugin } from 'awesome-cordova-plugins/core';
 export interface IAPProductOptions {
     id: string;
     alias?: string;
@@ -207,7 +207,7 @@ export declare class IAPError {
  *    - (and any platform supporting Microsoft's UWP)
  * @usage
  * ```typescript
- * import { InAppPurchase2 } from '@awesome-cordova-plugins/in-app-purchase-2/ngx';
+ * import { InAppPurchase2 } from 'awesome-cordova-plugins/in-app-purchase-2/ngx';
  *
  * constructor(public platform: Platform, private store: InAppPurchase2) {
  *   platform.ready().then(() => {

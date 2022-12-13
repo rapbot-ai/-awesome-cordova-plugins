@@ -1,5 +1,5 @@
 import { __extends } from "tslib";
-import { AwesomeCordovaNativePlugin, cordova, cordovaPropertyGet, cordovaPropertySet } from '@awesome-cordova-plugins/core';
+import { AwesomeCordovaNativePlugin, cordova, cordovaPropertyGet, cordovaPropertySet } from 'awesome-cordova-plugins/core';
 import { Injectable } from '@angular/core';
 var IAPError = /** @class */ (function () {
     function IAPError() {

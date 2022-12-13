@@ -1,4 +1,4 @@
-import { AwesomeCordovaNativePlugin } from '@awesome-cordova-plugins/core';
+import { AwesomeCordovaNativePlugin } from 'awesome-cordova-plugins/core';
 import { Observable } from 'rxjs';
 export declare enum ATTRIBUTION_NETWORK {
     APPLE_SEARCH_ADS = 0,
@@ -157,7 +157,7 @@ export declare enum INTRO_ELIGIBILITY_STATUS {
  *
  * ```typescript
  *  import { Platform } from "@ionic/angular";
- *  import { Purchases } from "@awesome-cordova-plugins/purchases/ngx";
+ *  import { Purchases } from "awesome-cordova-plugins/purchases/ngx";
  *
  *  constructor(public platform: Platform, private purchases: Purchases) {
  *      platform.ready().then(() => {
