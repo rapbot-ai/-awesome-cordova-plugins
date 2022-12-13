@@ -13,6 +13,7 @@ var __extends = (this && this.__extends) || (function () {
         d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
     };
 })();
+// import { AwesomeCordovaNativePlugin, cordova } from 'awesome-cordova-plugins/core';
 import { AwesomeCordovaNativePlugin, cordova } from 'awesome-cordova-plugins/core';
 import { Observable } from 'rxjs';
 export var ATTRIBUTION_NETWORK;
