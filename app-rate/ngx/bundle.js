@@ -2,7 +2,7 @@
 
 var tslib = require('tslib');
 var i0 = require('@angular/core');
-var core = require('@awesome-cordova-plugins/core');
+var core = require('awesome-cordova-plugins/core');
 
 function _interopNamespaceDefault(e) {
     var n = Object.create(null);
@@ -90,8 +90,10 @@ var AppRate = /** @class */ (function (_super) {
     AppRate = tslib.__decorate([], AppRate);
     return AppRate;
 }(core.AwesomeCordovaNativePlugin));
-i0__namespace.ɵɵngDeclareClassMetadata({ minVersion: "12.0.0", version: "12.2.16", ngImport: i0__namespace, type: AppRate, decorators: [{
-            type: i0.Injectable
-        }], propDecorators: { locales: [], setPreferences: [], getPreferences: [], promptForRating: [], navigateToAppStore: [] } });
+i0__namespace.ɵɵngDeclareClassMetadata({
+    minVersion: "12.0.0", version: "12.2.16", ngImport: i0__namespace, type: AppRate, decorators: [{
+        type: i0.Injectable
+    }], propDecorators: { locales: [], setPreferences: [], getPreferences: [], promptForRating: [], navigateToAppStore: [] }
+});
 
 exports.AppRate = AppRate;

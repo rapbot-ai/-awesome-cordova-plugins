@@ -1,4 +1,4 @@
-import { AwesomeCordovaNativePlugin } from '@awesome-cordova-plugins/core';
+import { AwesomeCordovaNativePlugin } from 'awesome-cordova-plugins/core';
 export declare enum AppRateReviewTypeIos {
     /**
      * Write review directly in your application (iOS 10.3+), limited to 3 prompts per year.
@@ -169,7 +169,7 @@ export interface AppUrls {
  * Requires Cordova plugin: cordova-plugin-apprate. For more info, please see the [AppRate plugin docs](https://github.com/pushandplay/cordova-plugin-apprate).
  * @usage
  * ```typescript
- * import { AppRate } from '@awesome-cordova-plugins/app-rate/ngx';
+ * import { AppRate } from 'awesome-cordova-plugins/app-rate/ngx';
  *
  * constructor(private appRate: AppRate) { }
  *
